@@ -2,6 +2,8 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:machinetest/config/asset_const.dart';
+import 'package:machinetest/config/string_const.dart';
+import 'package:machinetest/features/medical_app/data/local/shared_pref.dart';
 import 'package:machinetest/features/medical_app/presentation/pages/auth/login.dart';
 
 class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
@@ -43,6 +45,7 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
                                 child: Text("Cancel")),
                             TextButton(
                                 onPressed: () {
+                                  StorageUtil().setBool(FIRST_LOGIN, false);
                                   FirebaseAuth.instance.signOut();
                                   Get.offAll(LoginScreen());
                                 },

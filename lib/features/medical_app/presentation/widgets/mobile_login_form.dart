@@ -21,7 +21,7 @@ class LoginWithMobileTextForm extends StatefulWidget {
 class _LoginWithMobileTextFormState extends State<LoginWithMobileTextForm> {
   final controller = TextEditingController();
   late String inputMobileNumber;
-  late String inputCountryCode;
+  late String inputCountryCode = '+1';
 
   final AuthController _authController = Get.put(AuthController());
 
