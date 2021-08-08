@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1080987024654",
+    "firebase_url": "https://adam-bere.firebaseio.com",
+    "project_id": "adam-bere",
+    "storage_bucket": "adam-bere.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1080987024654:android:cb429ce0896f0364222b5f",
+        "android_client_info": {
+          "package_name": "com.machinetest.machinetest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1080987024654-jeo9n3q3j7ofj0fkvt6d0ud0ef714tmm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_MmVStPvVG_SpHKS1Cyt6-pUYWOW7jW8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1080987024654-jeo9n3q3j7ofj0fkvt6d0ud0ef714tmm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
